@@ -139,6 +139,3 @@ any penetration tester.
 
 ---
 
-Scroll down → **Commit changes** → write commit message:
-```
-Add Blue room writeup
