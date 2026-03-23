@@ -1,31 +1,39 @@
 # 📝 Cybersecurity Notes
 
 Personal notes and cheatsheets from my TryHackMe journey.
-These are concise revision references covering tools,
-concepts and techniques.
+Concise revision references covering tools, concepts and techniques.
 
-## Index
+---
+
+## 📁 Cyber Security 101
 
 ### Exploitation Basics
-- [Metasploit Introduction](Metasploit-Introduction.md)
-- [Metasploit Exploitation](Metasploit-Exploitation.md)
-- [Metasploit Meterpreter](Metasploit-Meterpreter.md)
-- [Blue — MS17-010](Blue.md)
+- [Metasploit Introduction](CyberSec-101/Exploitation-Basics/Metasploit-Introduction.md)
+- [Metasploit Exploitation](CyberSec-101/Exploitation-Basics/Metasploit-Exploitation.md)
+- [Metasploit Meterpreter](CyberSec-101/Exploitation-Basics/Metasploit-Meterpreter.md)
+- [Blue — MS17-010](CyberSec-101/Exploitation-Basics/Blue.md)
+- [Moniker Link CVE-2024-21413](CyberSec-101/Exploitation-Basics/Moniker%20Link.md)
 
 ### Web Hacking
-- [Web Application Basics](Web-Application-Basics.md)
-- [JavaScript Essentials](JavaScript-Essentials.md)
-- [SQL Fundamentals](SQL-Fundamentals.md)
-- [Burp Suite Basics](Burp-Suite-Basics.md)
+- [Web Application Basics](CyberSec-101/Web-Hacking/Web-Application-Basics.md)
+- [JavaScript Essentials](CyberSec-101/Web-Hacking/JavaScript-Essentials.md)
+- [SQL Fundamentals](CyberSec-101/Web-Hacking/SQL-Fundamentals.md)
+- [Burp Suite Basics](CyberSec-101/Web-Hacking/Burp-Suite-Basics.md)
 
 ### Offensive Security Tooling
-- [Hydra](Hydra.md)
-- [Gobuster Basics](Gobuster-Basics.md)
-- [Shells Overview](Shells-Overview.md)
-- [SQLMap Basics](SQLMap-Basics.md)
+- [Hydra](CyberSec-101/Offensive-Security-Tooling/Hydra.md)
+- [Gobuster Basics](CyberSec-101/Offensive-Security-Tooling/Gobuster-Basics.md)
+- [Shells Overview](CyberSec-101/Offensive-Security-Tooling/Shells-Overview.md)
+- [SQLMap Basics](CyberSec-101/Offensive-Security-Tooling/SQLMap-Basics.md)
 
 ### OWASP Top 10
-- [IAAA Failures](OWASP-IAAA-Failures.md)
-- [Application Design Flaws](OWASP-Application-Design-Flaws.md)
-- [Insecure Data Handling](OWASP-Insecure-Data-Handling.md)
-```
+- [IAAA Failures](CyberSec-101/OWASP-Top-10/OWASP-Top10-IAAA-Failures.md)
+- [Application Design Flaws](CyberSec-101/OWASP-Top-10/OWASP-Top10-Application-Design-Flaws.md)
+- [Insecure Data Handling](CyberSec-101/OWASP-Top-10/OWASP-Top10-Insecure-Data-Handling.md)
+
+---
+
+## 📁 Jr Penetration Tester
+
+### Introduction to Web Hacking
+- [Walking An Application](Jr-Pentesting-Path/Introduction-to-Web-Hacking/Walking-An-Application.md)
