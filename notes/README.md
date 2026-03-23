@@ -29,7 +29,3 @@ concepts and techniques.
 - [Application Design Flaws](OWASP-Application-Design-Flaws.md)
 - [Insecure Data Handling](OWASP-Insecure-Data-Handling.md)
 ```
-
-Commit message:
-```
-Add notes folder with index
