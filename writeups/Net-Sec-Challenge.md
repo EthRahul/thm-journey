@@ -75,4 +75,4 @@ Q: Browsing to http://MACHINE_IP:8080 displays a small challenge that will give 
 
 Answer: THM{f7443f99}
 
-Concept: This requires interacting with the web application hosted on port 8080. Challenges like this typically involve triggering specific network behaviors (like running an Nmap scan against the machine to bypass a filter) or inspecting the page source to retrieve the final flag.
+Concept: This requires interacting with the web application hosted on port 8080. Challenges like this typically involve triggering specific network behaviors (like running an Nmap scan against the machine to bypass a filter) or inspecting the page source to retrieve the final flag.This id done using the null scan -sN on the target IP and generating as less log activity as posible.
