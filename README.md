@@ -47,13 +47,12 @@ thm-journey/
 
 | Module | Status |
 |---|---|
-| Introduction to Pentesting | 🔄 In Progress |
-| Web Hacking Fundamentals | ⏳ |
-| Burp Suite Advanced | ⏳ |
-| Network Security | ⏳ |
-| Vulnerability Research | ⏳ |
-| Privilege Escalation | ⏳ |
-| Active Directory | ⏳ |
+| Introduction to Pentesting | ✅ |
+| Introduction to Web Hacking | ✅ |
+| Burp Suite | ✅ |
+| Network Security | ✅ |
+| Vulnerability Research | ✅ |
+| Privilege Escalation | ✅ |
 
 ---
 
@@ -61,10 +60,10 @@ thm-journey/
 
 | Room | Path | Difficulty | Link |
 |---|---|---|---|
-| Blue (MS17-010 EternalBlue) | CS101 | Easy | [View](writeups/Blue.md) |
 | Metasploit Introduction | CS101 | Easy | [View](writeups/Metasploit-Introduction.md) |
-| Shells Overview | CS101 | Easy | [View](writeups/Shells-Overview.md) |
-| SQLMap Basics | CS101 | Easy | [View](writeups/SQLMap-Basics.md) |
+| Linux Privilege Escalation Capstone | Jr Pentester | Medium | [View](writeups/Linux-Privilege-Escalation-Capstone.md) |
+| Net Sec Challenge | Jr Pentester | Medium | [View](writeups/Net-Sec-Challenge.md) |
+| Vulnerability Capstone | Jr Pentester | Medium | [View](writeups/Vulnerability-Capstone.md) |
 
 ---
 
@@ -86,8 +85,10 @@ thm-journey/
 ## 🎯 Goals
 ```
 ✅ Complete TryHackMe Cyber Security 101
-🔄 Complete Jr Penetration Tester Path
-⏳ Earn eJPT Certification
+✅ Complete Jr Penetration Tester Path
+⏳ Earn PTSv2 (PT1) Certification
+⏳ Web Application Penetration Testing
+⏳ Earn HTB CPTS Certification
 ⏳ First bug bounty submission on HackerOne
 ⏳ Offensive security internship 2026
 ```
