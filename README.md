@@ -13,8 +13,8 @@
 This repository documents my hands-on cybersecurity learning journey through TryHackMe.
 It contains room writeups, key notes and scripts I built along the way.
 
-**Current Path:** Jr Penetration Tester
-**Previous Path:** Cyber Security 101 ✅ (56 labs | 45+ hours)
+**Current Path:** Web Application Pentesting
+**Previous Paths:** Jr Penetration Tester ✅ | Cyber Security 101 ✅ (56 labs | 45+ hours)
 
 ---
 
@@ -41,9 +41,7 @@ thm-journey/
 | Web Hacking (Burp Suite, SQLi, JS, OWASP Top 10) | ✅ |
 | Offensive Security Tooling (Hydra, Gobuster, SQLMap, Shells) | ✅ |
 
----
-
-## 🔄 Current Path — Jr Penetration Tester
+### Jr Penetration Tester — Completed April 2026
 
 | Module | Status |
 |---|---|
@@ -53,6 +51,14 @@ thm-journey/
 | Network Security | ✅ |
 | Vulnerability Research | ✅ |
 | Privilege Escalation | ✅ |
+
+---
+
+## 🔄 Current Path — Web Application Pentesting
+
+| Module | Status |
+|---|---|
+| Coming soon... | 🔄 |
 
 ---
 
