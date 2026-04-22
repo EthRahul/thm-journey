@@ -30,34 +30,34 @@
 ### Exploitation Basics
 | Room | Notes |
 |---|---|
-| Metasploit Introduction | [View](CyberSec-101/Exploitation-Basics/Metasploit-Introduction.md) |
-| Metasploit Exploitation | [View](CyberSec-101/Exploitation-Basics/Metasploit-Exploitation.md) |
-| Metasploit Meterpreter | [View](CyberSec-101/Exploitation-Basics/Metasploit-Meterpreter.md) |
-| Blue — MS17-010 EternalBlue | [View](CyberSec-101/Exploitation-Basics/Blue.md) |
-| Moniker Link CVE-2024-21413 | [View](CyberSec-101/Exploitation-Basics/Moniker-Link.md) |
+| Metasploit Introduction | [View](01-CyberSec-101/Exploitation-Basics/Metasploit-Introduction.md) |
+| Metasploit Exploitation | [View](01-CyberSec-101/Exploitation-Basics/Metasploit-Exploitation.md) |
+| Metasploit Meterpreter | [View](01-CyberSec-101/Exploitation-Basics/Metasploit-Meterpreter.md) |
+| Blue — MS17-010 EternalBlue | [View](01-CyberSec-101/Exploitation-Basics/Blue.md) |
+| Moniker Link CVE-2024-21413 | [View](01-CyberSec-101/Exploitation-Basics/Moniker-Link.md) |
 
 ### Web Hacking
 | Room | Notes |
 |---|---|
-| Web Application Basics | [View](CyberSec-101/Web-Hacking/Web-Application-Basics.md) |
-| JavaScript Essentials | [View](CyberSec-101/Web-Hacking/JavaScript-Essentials.md) |
-| SQL Fundamentals | [View](CyberSec-101/Web-Hacking/SQL-Fundamentals.md) |
-| Burp Suite Basics | [View](CyberSec-101/Web-Hacking/Burp-Suite-Basics.md) |
+| Web Application Basics | [View](01-CyberSec-101/Web-Hacking/Web-Application-Basics.md) |
+| JavaScript Essentials | [View](01-CyberSec-101/Web-Hacking/JavaScript-Essentials.md) |
+| SQL Fundamentals | [View](01-CyberSec-101/Web-Hacking/SQL-Fundamentals.md) |
+| Burp Suite Basics | [View](01-CyberSec-101/Web-Hacking/Burp-Suite-Basics.md) |
 
 ### Offensive Security Tooling
 | Room | Notes |
 |---|---|
-| Hydra | [View](CyberSec-101/Offensive-Security-Tooling/Hydra.md) |
-| Gobuster Basics | [View](CyberSec-101/Offensive-Security-Tooling/Gobuster-Basics.md) |
-| Shells Overview | [View](CyberSec-101/Offensive-Security-Tooling/Shells-Overview.md) |
-| SQLMap Basics | [View](CyberSec-101/Offensive-Security-Tooling/SQLMap-Basics.md) |
+| Hydra | [View](01-CyberSec-101/Offensive-Security-Tooling/Hydra.md) |
+| Gobuster Basics | [View](01-CyberSec-101/Offensive-Security-Tooling/Gobuster-Basics.md) |
+| Shells Overview | [View](01-CyberSec-101/Offensive-Security-Tooling/Shells-Overview.md) |
+| SQLMap Basics | [View](01-CyberSec-101/Offensive-Security-Tooling/SQLMap-Basics.md) |
 
 ### OWASP Top 10
 | Room | Notes |
 |---|---|
-| IAAA Failures | [View](CyberSec-101/OWASP-Top-10/OWASP-Top10-IAAA-Failures.md) |
-| Application Design Flaws | [View](CyberSec-101/OWASP-Top-10/OWASP-Top10-Application-Design-Flaws.md) |
-| Insecure Data Handling | [View](CyberSec-101/OWASP-Top-10/OWASP-Top10-Insecure-Data-Handling.md) |
+| IAAA Failures | [View](01-CyberSec-101/OWASP-Top-10/OWASP-Top10-IAAA-Failures.md) |
+| Application Design Flaws | [View](01-CyberSec-101/OWASP-Top-10/OWASP-Top10-Application-Design-Flaws.md) |
+| Insecure Data Handling | [View](01-CyberSec-101/OWASP-Top-10/OWASP-Top10-Insecure-Data-Handling.md) |
 
 ---
 
