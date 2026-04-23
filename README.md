@@ -13,16 +13,16 @@
 This repository documents my hands-on cybersecurity learning journey through TryHackMe.
 It contains room writeups, key notes and scripts I built along the way.
 
-**Current Path:** Web Application Pentesting
+**Current Paths:** Web Application Pentesting | AI Security
 **Previous Paths:** Jr Penetration Tester ✅ | Cyber Security 101 ✅ (56 labs | 45+ hours)
 
 ---
 
 ## 📂 Repository Structure
-```
+```text
 thm-journey/
-├── writeups/          → Room walkthroughs and methodology
-├── notes/             → Key concepts and tool cheatsheets  
+├── writeups/          → Room walkthroughs grouped by numbered learning paths
+├── notes/             → Key concepts and tool cheatsheets sorted sequentially
 └── scripts/           → Custom scripts built during labs
 ```
 
@@ -54,11 +54,17 @@ thm-journey/
 
 ---
 
-## 🔄 Current Path — Web Application Pentesting
+## 🔄 Current Paths
 
+### Web Application Pentesting
 | Module | Status |
 |---|---|
 | Coming soon... | 🔄 |
+
+### AI Security
+| Module | Status |
+|---|---|
+| AI/ML Security Threats | ✅ |
 
 ---
 
@@ -66,10 +72,11 @@ thm-journey/
 
 | Room | Path | Difficulty | Link |
 |---|---|---|---|
-| Metasploit Introduction | CS101 | Easy | [View](writeups/Metasploit-Introduction.md) |
-| Linux Privilege Escalation Capstone | Jr Pentester | Medium | [View](writeups/Linux-Privilege-Escalation-Capstone.md) |
-| Net Sec Challenge | Jr Pentester | Medium | [View](writeups/Net-Sec-Challenge.md) |
-| Vulnerability Capstone | Jr Pentester | Medium | [View](writeups/Vulnerability-Capstone.md) |
+| Blue | Cyber Security 101 | Easy | [View](writeups/01-CyberSec-101/Blue/README.md) |
+| Metasploit Introduction | Cyber Security 101 | Easy | [View](writeups/01-CyberSec-101/Metasploit-Introduction/README.md) |
+| Net Sec Challenge | Jr Penetration Tester | Medium | [View](writeups/02-Jr-Pentesting-Path/Net-Sec-Challenge/README.md) |
+| Vulnerability Capstone | Jr Penetration Tester | Medium | [View](writeups/02-Jr-Pentesting-Path/Vulnerability-Capstone/README.md) |
+| Linux Privilege Escalation Capstone | Jr Penetration Tester | Medium | [View](writeups/02-Jr-Pentesting-Path/Linux-Privilege-Escalation-Capstone/README.md) |
 
 ---
 
@@ -89,7 +96,7 @@ thm-journey/
 ---
 
 ## 🎯 Goals
-```
+```text
 ✅ Complete TryHackMe Cyber Security 101
 ✅ Complete Jr Penetration Tester Path
 ⏳ Earn PTSv2 (PT1) Certification
@@ -105,6 +112,7 @@ thm-journey/
 
 | Certification | Issuer | Year |
 |---|---|---|
+| Jr Penetration Tester | TryHackMe | 2026 |
 | Cyber Security 101 | TryHackMe | 2026 |
 | Ethical Hacking Essentials (EHE) | EC-Council | 2025 |
 | Google Cybersecurity Professional | Google | 2025 |
