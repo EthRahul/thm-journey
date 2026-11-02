@@ -7,12 +7,14 @@
 *A structured, room-by-room knowledge base built while working through TryHackMe —*
 *from offensive fundamentals to blue-team detection engineering.*
 
+`private vault` · public mirror: **[EthRahul/thm-journey](https://github.com/EthRahul/thm-journey)**
+
 <br>
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Ethrahul-red?style=for-the-badge&logo=tryhackme)](https://tryhackme.com/p/Ethrahul)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul_Sunouri-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/rahul-sunouri)
 
-![Notes](https://img.shields.io/badge/Notes-95_rooms-2ea44f?style=flat-square)
+![Notes](https://img.shields.io/badge/Notes-96_rooms-2ea44f?style=flat-square)
 ![Paths](https://img.shields.io/badge/Paths-6-blue?style=flat-square)
 ![Focus](https://img.shields.io/badge/Current_focus-SOC_Level_1-8957e5?style=flat-square)
 ![Updated](https://img.shields.io/badge/Updated-Sep_2026-lightgrey?style=flat-square)
@@ -26,8 +28,8 @@
 | Path | Modules | Notes | Status |
 |:---|:---:|:---:|:---|
 | [Cyber Security 101](#cs101) | 4 | 16 | ✅ Complete |
-| [Jr Penetration Tester](#jrpt) | 5 | 26 | ✅ Complete |
-| [Web Application Pentesting](#webapp) | 2 | 6 | 🔄 In progress |
+| [Jr Penetration Tester](#jrpt) | 6 | 27 | ✅ Complete |
+| [Web Application Pentesting](#webapp) | 1 | 6 | 🔄 In progress |
 | [AI Security](#aisec) | 1 | 2 | 🔄 In progress |
 | [**SOC Level 1**](#soc) | **8** | **31** | 🔄 **In progress — active focus** |
 | [Network Fundamentals (CCNA)](#ccna) | 1 | 14 | 🔄 In progress |
@@ -41,9 +43,9 @@
 - [📁 Cyber Security 101](#cs101) — *offensive fundamentals*
   - [Exploitation Basics](#cs101-exploit) · [Web Hacking](#cs101-web) · [Offensive Security Tooling](#cs101-tooling) · [OWASP Top 10](#cs101-owasp)
 - [📁 Jr Penetration Tester](#jrpt) — *the full pentest workflow*
-  - [Introduction to Web Hacking](#jrpt-web) · [Burp Suite](#jrpt-burp) · [Network Security](#jrpt-netsec) · [Vulnerability Research](#jrpt-vuln) · [Privilege Escalation](#jrpt-privesc)
+  - [Introduction to Pentesting](#jrpt-intro) · [Introduction to Web Hacking](#jrpt-web) · [Burp Suite](#jrpt-burp) · [Network Security](#jrpt-netsec) · [Vulnerability Research](#jrpt-vuln) · [Privilege Escalation](#jrpt-privesc)
 - [📁 Web Application Pentesting](#webapp) — *deep web app offence*
-  - [Authentication](#webapp-auth) · [Vulnerabilities](#webapp-vulns)
+  - [Authentication](#webapp-auth)
 - [📁 AI Security](#aisec) — *LLM & ML attack surface*
 - [🛡️ SOC Level 1](#soc) — *blue team: detection, triage, forensics*
   - [Core SOC Solutions](#soc-core) · [Cyber Defence Frameworks](#soc-frameworks) · [Network Traffic Analysis](#soc-nta) · [Network Security Monitoring](#soc-nsm) · [Web Security Monitoring](#soc-web) · [Windows Security Monitoring](#soc-windows) · [Malware Concepts for SOC](#soc-malware) · [Linux Security Monitoring](#soc-linux)
@@ -56,7 +58,7 @@
 
 ```mermaid
 graph LR
-    A["🧱 Cyber Security 101<br/>16 rooms ✅"] --> B["🗡️ Jr Penetration Tester<br/>26 rooms ✅"]
+    A["🧱 Cyber Security 101<br/>16 rooms ✅"] --> B["🗡️ Jr Penetration Tester<br/>27 rooms ✅"]
     B --> C["🌐 Web App Pentesting<br/>6 rooms 🔄"]
     B --> D["🛡️ SOC Level 1<br/>31 rooms 🔄"]
     C --> E["🤖 AI Security<br/>2 rooms 🔄"]
@@ -227,11 +229,11 @@ graph LR
 
 | Room | Difficulty | Notes |
 |:---|:---:|:---|
-| Metasploit: Introduction | 🟢 Easy | [View](01-CyberSec-101/Exploitation-Basics/Metasploit-Introduction.md) |
-| Metasploit: Exploitation | 🟢 Easy | [View](01-CyberSec-101/Exploitation-Basics/Metasploit-Exploitation.md) |
-| Metasploit: Meterpreter | 🟢 Easy | [View](01-CyberSec-101/Exploitation-Basics/Metasploit-Meterpreter.md) |
-| Blue — MS17-010 EternalBlue | 🟢 Easy | [View](01-CyberSec-101/Exploitation-Basics/Blue.md) |
-| Moniker Link — CVE-2024-21413 | 🟢 Easy | [View](01-CyberSec-101/Exploitation-Basics/Moniker-Link.md) |
+| Metasploit: Introduction | 🟢 Easy | [View](01-CyberSec_101/Exploitations%20basics/Metasploit-Introduction.md) |
+| Metasploit: Exploitation | 🟢 Easy | [View](01-CyberSec_101/Exploitations%20basics/Metasploit-Exploitation.md) |
+| Metasploit: Meterpreter | 🟢 Easy | [View](01-CyberSec_101/Exploitations%20basics/Metasploit-Meterpreter.md) |
+| Blue — MS17-010 EternalBlue | 🟢 Easy | [View](01-CyberSec_101/Exploitations%20basics/Blue.md) |
+| Moniker Link — CVE-2024-21413 | 🟢 Easy | [View](01-CyberSec_101/Exploitations%20basics/Moniker-Link.md) |
 
 </details>
 
@@ -244,10 +246,10 @@ graph LR
 
 | Room | Difficulty | Notes |
 |:---|:---:|:---|
-| Web Application Basics | 🟢 Easy | [View](01-CyberSec-101/Web-Hacking/Web-Application-Basics.md) |
-| JavaScript Essentials | 🟢 Easy | [View](01-CyberSec-101/Web-Hacking/JavaScript-Essentials.md) |
-| SQL Fundamentals | 🟢 Easy | [View](01-CyberSec-101/Web-Hacking/SQL-Fundamentals.md) |
-| Burp Suite: The Basics | 🟢 Easy | [View](01-CyberSec-101/Web-Hacking/Burp-Suite-Basics.md) |
+| Web Application Basics | 🟢 Easy | [View](01-CyberSec_101/Web-Hacking/Web-Application-Basics.md) |
+| JavaScript Essentials | 🟢 Easy | [View](01-CyberSec_101/Web-Hacking/JavaScript-Essentials.md) |
+| SQL Fundamentals | 🟢 Easy | [View](01-CyberSec_101/Web-Hacking/SQL-Fundamentals.md) |
+| Burp Suite: The Basics | 🟢 Easy | [View](01-CyberSec_101/Web-Hacking/Burp-Suite-Basics.md) |
 
 </details>
 
@@ -260,10 +262,10 @@ graph LR
 
 | Room | Difficulty | Notes |
 |:---|:---:|:---|
-| Hydra | 🟢 Easy | [View](01-CyberSec-101/Offensive-Security-Tooling/Hydra.md) |
-| Gobuster: The Basics | 🟢 Easy | [View](01-CyberSec-101/Offensive-Security-Tooling/Gobuster-Basics.md) |
-| Shells Overview | 🟢 Easy | [View](01-CyberSec-101/Offensive-Security-Tooling/Shells-Overview.md) |
-| SQLMap: The Basics | 🟢 Easy | [View](01-CyberSec-101/Offensive-Security-Tooling/SQLMap-Basics.md) |
+| Hydra | 🟢 Easy | [View](01-CyberSec_101/Offensive-Security-Tooling/Hydra.md) |
+| Gobuster: The Basics | 🟢 Easy | [View](01-CyberSec_101/Offensive-Security-Tooling/Gobuster-Basics.md) |
+| Shells Overview | 🟢 Easy | [View](01-CyberSec_101/Offensive-Security-Tooling/Shells-Overview.md) |
+| SQLMap: The Basics | 🟢 Easy | [View](01-CyberSec_101/Offensive-Security-Tooling/SQLMap-Basics.md) |
 
 </details>
 
@@ -276,9 +278,9 @@ graph LR
 
 | Room | Difficulty | Notes |
 |:---|:---:|:---|
-| IAAA Failures | 🟢 Easy | [View](01-CyberSec-101/OWASP-Top-10/OWASP-Top10-IAAA-Failures.md) |
-| Application Design Flaws | 🟢 Easy | [View](01-CyberSec-101/OWASP-Top-10/OWASP-Top10-Application-Design-Flaws.md) |
-| Insecure Data Handling | 🟢 Easy | [View](01-CyberSec-101/OWASP-Top-10/OWASP-Top10-Insecure-Data-Handling.md) |
+| IAAA Failures | 🟢 Easy | [View](01-CyberSec_101/OWASP/OWASP-Top10-IAAA-Failures.md) |
+| Application Design Flaws | 🟢 Easy | [View](01-CyberSec_101/OWASP/OWASP-Top10-Application-Design-Flaws.md) |
+| Insecure Data Handling | 🟢 Easy | [View](01-CyberSec_101/OWASP/OWASP-Top10-Insecure-Data-Handling.md) |
 
 </details>
 
@@ -290,7 +292,20 @@ graph LR
 
 > The full engagement workflow — recon, web exploitation, vulnerability research and privilege escalation on both Linux and Windows.
 
-**5 modules · 26 rooms · Completed April 2026**
+**6 modules · 27 rooms · Completed April 2026**
+
+<a id="jrpt-intro"></a>
+
+<details>
+<summary><b>Introduction to Pentesting</b> &nbsp;<code>1 room</code></summary>
+
+<br>
+
+| Room | Difficulty | Notes |
+|:---|:---:|:---|
+| Pentesting Fundamentals & Principles of Security | 🟢 Easy | [View](02-Jr-Pentesting-Path/Introduction-to-Pentesting/Pentesting-Fundamentals-and-Principles.md) |
+
+</details>
 
 <a id="jrpt-web"></a>
 
@@ -386,12 +401,12 @@ graph LR
 
 > Going deeper than the intro path — auth logic, token handling and the flaws that only show up when you understand the protocol.
 
-**2 modules · 6 rooms · In progress**
+**1 module · 6 rooms · In progress**
 
 <a id="webapp-auth"></a>
 
 <details>
-<summary><b>Authentication</b> &nbsp;<code>5 rooms</code></summary>
+<summary><b>Authentication & Vulnerabilities</b> &nbsp;<code>6 rooms</code></summary>
 
 <br>
 
@@ -402,19 +417,7 @@ graph LR
 | OAuth Vulnerabilities | 🟡 Medium | [View](03-Web-App-Pentesting/Authentication/OAuth-Vulnerabilities.md) |
 | JWT Security | 🟡 Medium | [View](03-Web-App-Pentesting/Authentication/JWT-Security.md) |
 | Multi-Factor Authentication | 🟡 Medium | [View](03-Web-App-Pentesting/Authentication/Multi-Factor-Authentication.md) |
-
-</details>
-
-<a id="webapp-vulns"></a>
-
-<details>
-<summary><b>Vulnerabilities</b> &nbsp;<code>1 room</code></summary>
-
-<br>
-
-| Room | Difficulty | Notes |
-|:---|:---:|:---|
-| Upload Vulnerabilities | 🟢 Easy | [View](03-Web-App-Pentesting/Vulnerabilities/Upload-Vulnerabilities.md) |
+| Upload Vulnerabilities | 🟢 Easy | [View](03-Web-App-Pentesting/Authentication/Upload-Vulnerabilities.md) |
 
 </details>
 
@@ -424,7 +427,7 @@ graph LR
 
 ## 📁 AI Security
 
-> The attack surface that did not exist five years ago — model behaviour, training data and LLM-specific abuse. [Module overview](04-AI-Security/README.md)
+> The attack surface that did not exist five years ago — model behaviour, training data and LLM-specific abuse.
 
 | Room | Notes |
 |:---|:---|
@@ -437,7 +440,7 @@ graph LR
 
 ## 📁 Network Fundamentals — CCNA 200-301
 
-> Infrastructure notes taken through an offensive lens: how packets move, where segmentation breaks, and which protocol weaknesses enable enumeration and pivoting. [Module overview](NetworkChuck-CCNA/README.md)
+> Infrastructure notes taken through an offensive lens: how packets move, where segmentation breaks, and which protocol weaknesses enable enumeration and pivoting.
 
 <details>
 <summary><b>14 modules</b> — from cabling to hybrid cloud &nbsp;<code>click to expand</code></summary>
@@ -446,20 +449,20 @@ graph LR
 
 | # | Module | Notes |
 |:---:|:---|:---|
-| 01 | What is a Network | [View](NetworkChuck-CCNA/01-What-is-a-Network.md) |
-| 02 | What is a Switch | [View](NetworkChuck-CCNA/02-What-is-a-Switch.md) |
-| 03 | Routers and ARP | [View](NetworkChuck-CCNA/03-Routers-and-ARP.md) |
-| 04 | TCP/IP and OSI Models | [View](NetworkChuck-CCNA/04-TCPIP-and-OSI-Models.md) |
-| 05 | Packet Flow and Encapsulation | [View](NetworkChuck-CCNA/05-Packet-Flow-and-Encapsulation.md) |
-| 06 | Upper OSI Layers and Ports | [View](NetworkChuck-CCNA/06-Upper-OSI-Layers-and-Ports.md) |
-| 07 | Network Architecture | [View](NetworkChuck-CCNA/07-Network-Architecture.md) |
-| 08 | Data Center Networks | [View](NetworkChuck-CCNA/08-Data-Center-Networks.md) |
-| 09 | Wide Area Networks | [View](NetworkChuck-CCNA/09-Wide-Area-Networks.md) |
-| 10 | Home Network Security and IP Addressing | [View](NetworkChuck-CCNA/10-Home-Network-Security-and-IP-Addressing.md) |
-| 11 | Hybrid Cloud and Microservices | [View](NetworkChuck-CCNA/11-Hybrid-Cloud-and-Microservices.md) |
-| 12 | Physical Layer and Ethernet | [View](NetworkChuck-CCNA/12-Physical-Layer-and-Ethernet.md) |
-| 13 | Power over Ethernet | [View](NetworkChuck-CCNA/13-Power-over-Ethernet.md) |
-| 14 | Fiber Optics and Transceivers | [View](NetworkChuck-CCNA/14-Fiber-Optics-and-Transceivers.md) |
+| 01 | What is a Network | [View](../Networking-Fundamentals/01-What-is-a-Network.md) |
+| 02 | What is a Switch | [View](../Networking-Fundamentals/02-What-is-a-Switch.md) |
+| 03 | Routers and ARP | [View](../Networking-Fundamentals/03-Routers-and-ARP.md) |
+| 04 | TCP/IP and OSI Models | [View](../Networking-Fundamentals/04-TCPIP-and-OSI-Models.md) |
+| 05 | Packet Flow and Encapsulation | [View](../Networking-Fundamentals/05-Packet-Flow-and-Encapsulation.md) |
+| 06 | Upper OSI Layers and Ports | [View](../Networking-Fundamentals/06-Upper-OSI-Layers-and-Ports.md) |
+| 07 | Network Architecture | [View](../Networking-Fundamentals/07-Network-Architecture.md) |
+| 08 | Data Center Networks | [View](../Networking-Fundamentals/08-Data-Center-Networks.md) |
+| 09 | Wide Area Networks | [View](../Networking-Fundamentals/09-Wide-Area-Networks.md) |
+| 10 | Home Network Security and IP Addressing | [View](../Networking-Fundamentals/10-Home-Network-Security-and-IP-Addressing.md) |
+| 11 | Hybrid Cloud and Microservices | [View](../Networking-Fundamentals/11-Hybrid-Cloud-and-Microservices.md) |
+| 12 | Physical Layer and Ethernet | [View](../Networking-Fundamentals/12-Physical-Layer-and-Ethernet.md) |
+| 13 | Power over Ethernet | [View](../Networking-Fundamentals/13-Power-over-Ethernet.md) |
+| 14 | Fiber Optics and Transceivers | [View](../Networking-Fundamentals/14-Fiber-Optics-and-Transceivers.md) |
 
 </details>
 
@@ -496,9 +499,9 @@ Path · Date · Difficulty
 
 <div align="center">
 
-### 🔗 More in this repo
+### 🔗 Elsewhere in this vault
 
-[**Room Writeups →**](../writeups) · [**Repository Home →**](../README.md)
+[**Room Template →**](Templates/Room-Template.md) · [**Networking Fundamentals →**](../Networking-Fundamentals) · [**Public mirror →**](https://github.com/EthRahul/thm-journey)
 
 <br>
 

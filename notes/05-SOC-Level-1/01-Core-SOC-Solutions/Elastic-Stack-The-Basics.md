@@ -15,12 +15,12 @@
 
 ### Core Components
 
-| Component | Role |
-|---|---|
-| **Elasticsearch** | Search and analytics engine — stores and indexes all data |
-| **Logstash** | Data processing pipeline — ingests, transforms, and forwards logs |
-| **Kibana** | Web UI — visualise and query data stored in Elasticsearch |
-| **Beats** | Lightweight data shippers installed on endpoints |
+| Component         | Role                                                              |
+| ----------------- | ----------------------------------------------------------------- |
+| **Elasticsearch** | Search and analytics engine — stores and indexes all data         |
+| **Logstash**      | Data processing pipeline — ingests, transforms, and forwards logs |
+| **Kibana**        | Web UI — visualise and query data stored in Elasticsearch         |
+| **Beats**         | Lightweight data shippers installed on endpoints                  |
 
 ### Data Flow
 ```
